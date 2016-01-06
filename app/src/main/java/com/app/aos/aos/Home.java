@@ -37,7 +37,7 @@ public class Home extends Activity {
         //setChildData();
 
         ExpandList = (ExpandableListView) findViewById(R.id.expandable_listview);
-        ExpandList.setIndicatorBounds(0,900);
+        ExpandList.setIndicatorBounds(0,0);
         groupItems = setGroupItems();
         newAdapter = new NewAdapter(Home.this,groupItems);
         ExpandList.setOnChildClickListener(new ExpandableListView.OnChildClickListener() {

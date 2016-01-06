@@ -8,10 +8,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/child_item"
         android:fontFamily="sans-serif-light"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        android:textSize="22sp"
         android:layout_margin="5dp"
         android:paddingLeft="30dp"
         android:textColor="#FFF90307" />
-
+<!-- android:textStyle="bold"
+        -->
 </LinearLayout>
